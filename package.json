@@ -1,0 +1,35 @@
+{
+  "name": "cypress-e2e-demoqa",
+  "description": "Cypress e2e demoqa",
+  "version": "1.0.0",
+  "private": true,
+
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.3",
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/plugin-proposal-private-methods": "^7.13.0",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/register": "^7.13.14",
+    "chai-sorted": "^0.2.0",
+    "cypress": "^12.5.0",
+    "prettier": "^2.8.3"
+  },
+  "scripts": {
+    "test": "cypress run"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  }
+}
