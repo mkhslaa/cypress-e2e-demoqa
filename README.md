@@ -1,5 +1,6 @@
 # Cypress E2E Framework to test the demoqa Website
-It contains 6 happy paths UI tests and 6 api happy paths and 1 error path.
+It contains 6 happy paths UI tests and 1 error path.
+It also contains 7 api happy paths.
 
 ## Cypress Framework Setup
 * `Install`: Install recent cypress version
